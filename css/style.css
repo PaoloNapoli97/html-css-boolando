@@ -168,6 +168,7 @@ header{
 ------------*/
 
 footer{
+    margin-top: 100px;
     color: white;
     background-color: #23272a;
 }
