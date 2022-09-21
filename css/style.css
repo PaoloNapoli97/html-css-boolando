@@ -28,8 +28,8 @@ a{
 
 .shopping-box{
     position: relative;
-    width: calc(33.33% - 20px);
-    padding: 20px;
+    width: calc(33.33% -10px);
+    padding: 10px;
     height: 700px;
     margin-bottom: 40px;
 }
@@ -74,12 +74,14 @@ a{
     justify-content: space-between;
 }
 
-.nav ul, .impostazioni ul {
+
+
+.nav ul, .impostazioni ul, .footer-site ul, .social ul{
     display: flex;
     list-style-type: none;
 }
 
-.nav li, .impostazioni li{
+.nav li, .impostazioni li,{
     font-size: 20px;
     margin: 0 6px;
 }
@@ -159,5 +161,42 @@ header{
 
 .dress-photo:hover .over{
     display: block;
+}
+
+/*------------
+    FOOTER
+------------*/
+
+footer{
+    color: white;
+    background-color: #23272a;
+}
+
+.footer-site h5{    
+    font-size: 24px;
+}
+
+.footer-site li{
+    margin-top: 10px;
+    padding-right: 16px;
+}
+
+  
+.footer{
+    width: 100%;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.social li{
+    padding-top: 6px;
+    padding-right: 10px;
+}
+
+.social{
+    font-size: 18px;
 }
 
