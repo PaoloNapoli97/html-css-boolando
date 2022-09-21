@@ -52,11 +52,11 @@ a{
 }
 
 .bottom{
-    top: 600px;
+    top: 580px;
 }
 
 .sliglty-left{
-    left: 70px;
+    left: 58px;
 }
 
 .sconto{
@@ -81,7 +81,7 @@ a{
     list-style-type: none;
 }
 
-.nav li, .impostazioni li{
+.nav li, .impostazioni li,{
     font-size: 20px;
     margin: 0 6px;
 }
@@ -136,7 +136,7 @@ header{
     padding: 10px;
     background-color: white;
     bottom: 600px;
-    left: 392px;
+    left: 418px;
 }
 
 .heart-position:hover{
