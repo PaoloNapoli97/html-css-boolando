@@ -1,0 +1,72 @@
+/*------------
+    RESET
+------------*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*------------
+    COMMON
+------------*/
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/*------------
+    HEADER
+------------*/
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.nav ul, .impostazioni ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav li, .impostazioni li{
+    font-size: 20px;
+    margin: 0 6px;
+}
+
+header{
+    color: white;
+    background-color: #FF6900;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 10px 0;
+}
+
+.logo{
+    text-align: center;
+    width: 60%;
+}
+
+.logo img{
+    height: 40px;
+}
+
+.nav, .impostazioni{
+    width: 20%;
+}
+
+.impostazioni{
+    display: flex;
+    justify-content: flex-end;
+}
+
