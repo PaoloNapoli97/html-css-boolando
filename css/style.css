@@ -20,6 +20,10 @@
     margin: auto;
 }
 
+section{
+    padding-top: 150px;
+}
+
 a{
     color: white;
     text-decoration: none;
@@ -28,7 +32,7 @@ a{
 
 .shopping-box{
     position: relative;
-    width: calc(33.33% -10px);
+    width: 33.33%;
     padding: 10px;
     height: 700px;
     margin-bottom: 40px;
@@ -63,35 +67,41 @@ a{
     background-color: red;
 }
 
-
-/*------------
-    HEADER
-------------*/
-
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-
-
 .nav ul, .impostazioni ul, .footer-site ul, .social ul{
     display: flex;
     list-style-type: none;
 }
 
-.nav li, .impostazioni li,{
+.nav li, .impostazioni li{
     font-size: 20px;
     margin: 0 6px;
+}
+
+
+
+/*------------
+    HEADER
+------------*/
+
+.row{
+    display: flex;
+    justify-content: space-between;
 }
 
 header{
     color: white;
     background-color: #FF6900;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    padding: 10px 0;
+    height: 70px;
+    width: 100%;
     margin-bottom: 90px;
+    position: fixed;
+    z-index: 1;
+}
+
+header .row{
+    align-items: center;
+    height: 100%;
 }
 
 .logo{
